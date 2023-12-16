@@ -1,0 +1,72 @@
+.myheader{
+background-color:rgb(21, 85, 150);
+padding: 15px 0px;
+font-size: 40px;
+text-align: center;
+border-bottom: 5px solid rgb(15, 14, 14);
+color: rgb(11, 11, 11);
+}
+.images img{
+    display: flex;
+    width: 100%;
+   
+}
+.mylist{
+    display: flex;
+width: 960px;
+
+margin-top: 60px;
+position: absolute;
+top:600px;
+left:500px;
+margin-left: auto;
+margin-right: auto;
+
+
+}
+.injera, .lasagna, .bread{
+    width: 33%
+}
+
+.injera a, .lasagna a, .bread a, .back a{
+    width: 100%;
+    background-color: rgb(72, 189, 228);
+    font-size: 50px;
+    padding: 25px 60px;
+    text-align: center;
+    color: rgb(21, 21, 21);
+    text-decoration: none;
+    opacity:0.5;
+    
+    
+}
+.injera a:hover,.lasagna a:hover, .bread a:hover, .back a:hover{
+background-color: rgb(144, 137, 137);
+    border-top: 10px double rgb(225, 225, 223);
+    border-right:10px double rgb(70, 70, 67) ; 
+    
+}
+
+.lasagna{
+    margin-right: 35px;
+}
+.heading2{
+
+    font-size: 40px;
+    margin-left: 30px;
+
+}
+.list{
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.back{
+    width: 500px;
+    position: absolute;
+    top:600px;
+    left:600px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
