@@ -1,72 +1,72 @@
-.myheader{
-background-color:rgb(21, 85, 150);
-padding: 15px 0px;
-font-size: 40px;
-text-align: center;
-border-bottom: 5px solid rgb(15, 14, 14);
-color: rgb(11, 11, 11);
+*{
+    margin: 0;
+    padding: 0;
 }
-.images img{
-    display: flex;
-    width: 100%;
-   
+img{
+    width: 900px;
+    height: 500px;
+    border-radius: 20px;
+}
+body{
+    background-color: rgb(226, 232, 229);
+}
+
+.myheader{
+    background-color: rgba(0, 0, 17, 0.94);
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+    font-size: 20px;
 }
 .mylist{
+    width: 960px;
     display: flex;
-width: 960px;
-
-margin-top: 60px;
-position: absolute;
-top:600px;
-left:500px;
-margin-left: auto;
-margin-right: auto;
-
+    justify-content:space-between;
+padding: 30px 0;
+font-size: 30px;
 
 }
-.injera, .lasagna, .bread{
-    width: 33%
-}
-
-.injera a, .lasagna a, .bread a, .back a{
-    width: 100%;
-    background-color: rgb(72, 189, 228);
-    font-size: 50px;
-    padding: 25px 60px;
-    text-align: center;
-    color: rgb(21, 21, 21);
+.mylist a{
     text-decoration: none;
-    opacity:0.5;
+    color: white;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 17, 0.94);
     
+   
+}
+.images{
+    width: 960px;
     
 }
-.injera a:hover,.lasagna a:hover, .bread a:hover, .back a:hover{
-background-color: rgb(144, 137, 137);
-    border-top: 10px double rgb(225, 225, 223);
-    border-right:10px double rgb(70, 70, 67) ; 
-    
+.my{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 17, 0.8);
+   
 }
 
-.lasagna{
-    margin-right: 35px;
-}
-.heading2{
 
-    font-size: 40px;
-    margin-left: 30px;
-
-}
-.list{
+.wana{
+    margin: 50px 100px;
     font-size: 20px;
-    margin-left: 50px;
-}
+    border-top: 2px solid black;
 
-.back{
-    width: 500px;
-    position: absolute;
-    top:600px;
-    left:600px;
-    margin-left:auto;
-    margin-right:auto;
 }
-
+.main a:hover{
+    color: aquamarine;
+}
+h2{
+    margin: 30px 0;
+}
+.sis{
+    text-align: center;
+    color: rgb(126, 227, 205);
+    font-size: 70px;
+    margin-top: 90px;
+    font-weight: 700;
+    margin-right: 50px;
+}
